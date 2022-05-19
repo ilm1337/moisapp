@@ -66,6 +66,10 @@ body {
   align-items: center;
 }
 .chat {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  flex-direction: column;
   background: white;
 }
 .titulo {
@@ -73,6 +77,7 @@ body {
 }
 
 .chat {
+  overflow: scroll;
   width: 100vw;
   height: 800px;
   border: 1px solid black;
